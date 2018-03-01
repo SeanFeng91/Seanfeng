@@ -1,0 +1,42 @@
+.textcard {
+margin: 4rem 0;
+}
+
+/* .carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active { display: block; } */
+
+/* body, html {
+    height: 100%;
+} */
+
+.parallax {
+    /* The image used */
+    background-image: url("1.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headquote, #headtext{
+    background: transparent;
+    /*opacity: 0.4;*/
+}
+
+.display-3{
+    font-weight: 800;
+    font-size: 4em;
+    color: darkslategray;
+}
+
+.display-4{
+    font-weight: 200;
+    font-size: 1.5em;
+    color: lightgray
+}
