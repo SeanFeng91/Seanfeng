@@ -19,8 +19,8 @@ margin: 2rem 0;
     position: relative; 
     overflow: hidden;
     /* Set a specific height */
-    min-height: 800px; 
-
+    /* min-height: 600px;  */
+    max-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
